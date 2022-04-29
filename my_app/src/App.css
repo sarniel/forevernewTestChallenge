@@ -1,0 +1,47 @@
+body{
+  margin: 4rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.flex{
+  display: flex;
+}
+.items{
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.gap-1{
+  gap: .5rem;
+}
+.pb-1{
+  padding-bottom: .5rem;
+}
+.active{
+  background-color: #ffc07d;
+  border-color: #ffc07d;
+}
+.btn-primary{
+  margin-top: 2rem;
+  width: 100%;
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.ml-auto{
+  margin-left: auto;
+}
+.total{
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+  font-weight: bold;
+}
+.table{
+  display: table;
+}
